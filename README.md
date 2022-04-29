@@ -1,6 +1,5 @@
 # Object Tracking in Adverse Weather Conditions
-### By Jon Van Veen, Han Wang, Danica Fliss
-### For the course CS 766: Computer Vision at the University of Wisconsin-Madison
+
 <img src="https://github.com/jonvanveen/Adverse-Weather-Object-Tracking/blob/main/University-of-Wisconsin-Madison-Logo.png" width="300" height="102">
 
 ## Motivation
