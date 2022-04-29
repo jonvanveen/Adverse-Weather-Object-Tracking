@@ -8,8 +8,12 @@ Object tracking is fundamental for autonomous vehicles (AVs) to perform path pla
 
 We compare three prominent models in the object detection literature: [YOLO](https://pjreddie.com/darknet/yolo/) ("You Only Look Once"), [IA-YOLO](https://arxiv.org/abs/2112.08088) ("Image Adaptive"), and R-CNN. These models are trained on the [BDD100k dataset](https://www.bdd100k.com/). 
 
-## 
+## Approach
+
+## Implementation
 
 ## Results
+
+## Discussion
 
 ## Source Code
