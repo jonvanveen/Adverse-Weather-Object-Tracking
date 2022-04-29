@@ -2,7 +2,6 @@
 ### By Jon Van Veen, Han Wang, Danica Fliss
 ### For the course CS 766: Computer Vision at the University of Wisconsin-Madison
 <img src="https://github.com/jonvanveen/Adverse-Weather-Object-Tracking/blob/main/University-of-Wisconsin-Madison-Logo.png" width="300" height="102">
-![UW-Madison Logo](https://github.com/jonvanveen/Adverse-Weather-Object-Tracking/blob/main/University-of-Wisconsin-Madison-Logo.png)
 
 ## Motivation
 Object tracking is fundamental for autonomous vehicles (AVs) to perform path planning and object avoidance. Datasets commonly used to train object tracking algorithms for AVs contain mostly video from clear, open-air environments, causing the models to fail in adverse weather conditions. Even with data available, the performance of these algorithms severely degrades in adverse weather. The inability to perform object detection and tracking in various weather conditions is therefore a major roadblock for the use of AVs. In this project, we investigate object tracking in adverse weather conditions. 
