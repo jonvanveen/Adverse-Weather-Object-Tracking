@@ -3,6 +3,7 @@
 <center><img src="Figures/University-of-Wisconsin-Madison-Logo.png" class="centerImage" width="300" height="102"></center>
 
 <center><img src="Figures/Madison_Day.gif" width="500" height="375"></center> <center><img src="Figures/Madison_Night_Rain.gif" width="500" height="375"></center>
+
 Footage from different weather conditions in Madison, WI.
 
 ## Motivation
