@@ -12,6 +12,9 @@ Object tracking is fundamental for autonomous vehicles (AVs) to perform path pla
 We investigate a prominent model in the object detection literature: [IA-YOLO](https://arxiv.org/abs/2112.08088) ("Image Adaptive"), a modification of the original [YOLO](https://pjreddie.com/darknet/yolo/) ("You Only Look Once") architecture with modules to perform defogging and brightening of images. This model is trained on the [BDD100k dataset](https://www.bdd100k.com/). 
 
 ## Approach
+We implement the IA-YOLO algorithm described in the paper above. The figure below illustrates the model: 
+
+
 
 ## Implementation
 
