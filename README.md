@@ -1,6 +1,6 @@
 # Object Tracking in Adverse Weather Conditions
 
-<p style="text-align:center;"><img src="Figures/University-of-Wisconsin-Madison-Logo.png" class="centerImage" width="300" height="102"></p>
+<center><img src="Figures/University-of-Wisconsin-Madison-Logo.png" class="centerImage" width="300" height="102"></center>
 
 <img src="Figures/Madison_Day.gif" width="500" height="375"> <img src="Figures/Madison_Night_Rain.gif" width="500" height="375">
 Footage from different weather conditions in Madison, WI.
