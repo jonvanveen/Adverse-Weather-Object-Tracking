@@ -1,6 +1,6 @@
 # Object Tracking in Adverse Weather Conditions
 
-<img src="Figures/University-of-Wisconsin-Madison-Logo.png" width="300" height="102" class="center">
+<p style="text-align:center;"><img src="Figures/University-of-Wisconsin-Madison-Logo.png" width="300" height="102" class="center">
 
 <img src="Figures/Madison_Day.gif" width="500" height="375"> <img src="Figures/Madison_Night_Rain.gif" width="500" height="375">
 
