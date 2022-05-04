@@ -14,7 +14,7 @@ We investigate a prominent model in the object detection literature: [IA-YOLO](h
 ## Approach
 We implement the IA-YOLO algorithm described in the first paper above. The figure below illustrates the model: 
 
-<center><img src="Figures/IA-YOLO_figure.png" width = "750" height="300"></center>
+<center><img src="Figures/IA-YOLO_diagram.png" width = "750" height="300"></center>
 
 Supporting the original YOLO model described in the second paper above are two modules that perform defogging and lightening on input images. The Differential Image Processor (DIP) applies standard filters like white balance, tone, and contrast to defog or lighten an image. These processed images are input for the YOLO network itself, which then outputs object detections on the images. YOLO detections are compared with ground-truth detections to produce a detection loss parameter. This detection loss "supervises" a small CNN which serves as a Parameter Predictor for the DIP. This CNN-PP learns better input parameters for the DIP filters so that YOLO outputs inform how defogging and lightening of images should be performed.
 
