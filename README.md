@@ -1,4 +1,3 @@
-# Object Tracking in Adverse Weather Conditions
 
 <center><img src="Figures/University-of-Wisconsin-Madison-Logo.png" class="centerImage" width="300" height="102"></center>
 
