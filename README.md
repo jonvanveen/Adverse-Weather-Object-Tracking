@@ -31,3 +31,8 @@ Code can be found at our [Github Repo](https://github.com/jonvanveen/Adverse-Wea
 [1] W. Liu, G. Ren, R. Yu, S. Guo, J. Zhu, and L. Zhang, “Image-adaptive YOLO for object detection in adverse weather conditions,” arXiv preprint arXiv:2112.08088, 2021
 
 [2] J. Redmon and A. Farhadi, "YOLOv3: An Incremental Improvement," arXiv preprint arXiv:1804.02767, 2018
+
+[3] F. Yu, H. Chen, X. Wang, W. Xian, Y. Chen, F. Liu, V. Madhavan, and T. Darrell, "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning," arXiv preprint arXiv:1805.04687, 2020
+
+[4] M. Pitropov, D. Garcia, J. Rebello, M. Smart, C. Wang, K. Czarnecki, and S. Waslander, "Canadian Adverse Driving Conditions Dataset," arXiv preprint arXiv:2001.10117, 2020
+
