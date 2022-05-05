@@ -19,9 +19,19 @@ Supporting the original YOLO model described in [2] are two modules that perform
 
 ## Implementation
 
+In addition to the IA-YOLO architecture itself, we apply a few preprocessing operations to input images to see how these affected the results. Four standard operations we employed were adding Gaussian noise, varying illumination, varying contrast, and downsampling. 
+
+Beyond these simple modifications, we also employ image domain adaptation using Contrastive Unpaired Translation (CUT). Domain adaptations include generating from night to day and from dusk to day.
+
+We consider two object classes in our model: vehicles and pedestrians. 
+
 ## Results
 
+The tables above show that training with synthetically generated CUT images improve the accuracy metrics of each model compared to no data modification.
+
 ## Discussion
+
+Future work in this area would include expanding the number of classes of detected objects. We could consider bicycles, street signs, animals, and other common entities encountered while driving. For example, one might apply image super-resolution techniques to enhance and decipher words on common street signs. We expect that constructing an accurate model for several classes of objects will be more difficult than our implementation in adverse conditions.
 
 ## Source Code
 Code can be found at our [Github Repo](https://github.com/jonvanveen/Adverse-Weather-Object-Tracking).
