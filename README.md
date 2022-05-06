@@ -27,7 +27,16 @@ We consider two object classes in our model: vehicles and pedestrians.
 
 ## Results
 
-The tables above show that training with synthetically generated CUT images improve the accuracy metrics of each model compared to no data modification.
+Intersection Over Union (IOU) is a key evaluation metric for bounding-box object detection. It is described visually in the figure below.
+
+<center><img src="Figures/IOU.png"></center>
+
+
+The tables below show that training with synthetically generated CUT images improve the accuracy metrics of each model compared to no data modification.
+
+<center><img src="Figures/Tables.png"></center>
+
+Sample results on test data can be seen in the dashcam video footage at the top of this page, taken driving in two different conditions around Madison, WI. One can observe that the model consistently detects objects of the category it was trained on, namely vehicles and pedestrians. It does not, however, detect much larger or smaller vehicles, such as buses or motorcycles.
 
 ## Discussion
 
