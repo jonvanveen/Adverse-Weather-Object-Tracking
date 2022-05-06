@@ -1,0 +1,9 @@
+[submodule "iayolo"]
+	path = iayolo
+	url = https://github.com/wenyyu/Image-Adaptive-YOLO.git
+[submodule "cut"]
+	path = cut
+	url = https://github.com/taesungp/contrastive-unpaired-translation.git
+[submodule "yolov3"]
+	path = yolov3
+	url = https://github.com/ultralytics/yolov3.git
