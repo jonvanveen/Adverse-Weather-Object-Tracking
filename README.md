@@ -8,7 +8,7 @@ Footage with object detection from different weather conditions in Madison, WI (
 ## Motivation
 Object tracking is fundamental for autonomous vehicles (AVs) to perform path planning and object avoidance. Datasets commonly used to train object tracking algorithms for AVs contain mostly video from clear, open-air environments, causing the models to fail in adverse weather conditions. Even with data available, the performance of these algorithms severely degrades in adverse weather. The inability to perform object detection and tracking in various weather conditions is therefore a major roadblock for the use of AVs. In this project, we investigate object tracking in adverse weather conditions. 
 
-We investigate a prominent model in the object detection literature: [Image-Adaptive YOLO](https://arxiv.org/abs/2112.08088) [1], a modification of the original [YOLO](https://pjreddie.com/media/files/papers/YOLOv3.pdf) [2], "You Only Look Once", architecture with modules to perform defogging and brightening of images. Our implementation is trained on the [BDD100k dataset](https://www.bdd100k.com/) [3] and the [CADC dataset](http://cadcd.uwaterloo.ca) [4]. 
+We investigate a prominent model in the object detection literature: [Image-Adaptive YOLO](https://arxiv.org/abs/2112.08088) [1], a modification of the original [YOLO](https://pjreddie.com/media/files/papers/YOLOv3.pdf) [2], "You Only Look Once", architecture with modules to perform defogging and brightening of images. Our implementation is trained on the [BDD100k dataset](https://www.bdd100k.com/) [3] and the [nuScenes dataset](https://www.nuscenes.org/nuimages) [4]. 
 
 ## Approach
 We implement the IA-YOLO algorithm described in [1]. The figure below illustrates the model: 
@@ -58,5 +58,5 @@ Code can be found at our [Github Repo](https://github.com/jonvanveen/Adverse-Wea
 
 [3] F. Yu, H. Chen, X. Wang, W. Xian, Y. Chen, F. Liu, V. Madhavan, and T. Darrell, "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning," arXiv preprint arXiv:1805.04687, 2020
 
-[4] M. Pitropov, D. Garcia, J. Rebello, M. Smart, C. Wang, K. Czarnecki, and S. Waslander, "Canadian Adverse Driving Conditions Dataset," arXiv preprint arXiv:2001.10117, 2020
+[4] H. Caesar, V. Bankiti, A.H. Lang, S. Vora, V.E. Liong, Q. Xu, A. Krishnan, Y. Pan, G. Baldan, and O. Beijbom, "nuScenes: A multimodal dataset for autonomous driving," arXiv preprint arXiv:1903.11027, 2020
 
