@@ -35,7 +35,7 @@ Mean Average Precision (mAP) is another common evaluation metric for object dete
 
 <p align="center"><b>Table: Vehicle Results</b></p><center><img src="Figures/VehicleAP.png"></center>
 
-<p align="center"><b>Table: Pedestrian Results</b></p></p><center><img src="Figures/PedestrianAP.png"></center>
+<p align="center"><b>Table: Pedestrian Results</b></p><center><img src="Figures/PedestrianAP.png"></center>
 
 Sample results on test data can be seen in the dashcam video footage at the top of this page, taken driving in two different conditions around Madison, WI. One can observe that the model consistently detects objects of the category it was trained on, namely vehicles and pedestrians. It does not, however, detect much larger or smaller vehicles, such as buses or motorcycles.
 
