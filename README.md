@@ -33,11 +33,9 @@ Intersection Over Union (IOU) is a key evaluation metric for bounding-box object
 
 Mean Average Precision (mAP) is another common evaluation metric for object detection models. The tables below show that training with synthetically generated CUT images improve the mAP of each model compared to no data modification.
 
-<p align="center"><b>Table: Vehicle Results</b></p>
-<p align="justify"><img src="Figures/VehicleAP.png"></p>
+<p align="center">**Table: Vehicle Results**</p><center><p align="center"><img src="Figures/VehicleAP.png"></p></center>
 
-<p align="center"><b>Table: Pedestrian Results</b></p>
-<p align="justify"><img src="Figures/PedestrianAP.png"></p>
+<p align="center">**Table: Pedestrian Results**</p><center><p align="center"><img src="Figures/PedestrianAP.png"></p></center>
 
 Sample results on test data can be seen in the dashcam video footage at the top of this page, taken driving in two different conditions around Madison, WI. One can observe that the model consistently detects objects of the category it was trained on, namely vehicles and pedestrians. It does not, however, detect much larger or smaller vehicles, such as buses or motorcycles.
 
