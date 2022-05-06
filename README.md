@@ -31,8 +31,7 @@ Intersection Over Union (IOU) is a key evaluation metric for bounding-box object
 
 <center><img src="Figures/IOU.png"></center>
 
-
-The tables below show that training with synthetically generated CUT images improve the accuracy metrics of each model compared to no data modification.
+Mean Average Precision (mAP) is another common evaluation metric for object detection models. The tables below show that training with synthetically generated CUT images improve the mAP of each model compared to no data modification.
 
 <center><img src="Figures/Tables.png"></center>
 
