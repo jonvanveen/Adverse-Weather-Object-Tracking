@@ -33,10 +33,10 @@ Intersection Over Union (IOU) is a key evaluation metric for bounding-box object
 
 Mean Average Precision (mAP) is another common evaluation metric for object detection models. The tables below show that training with synthetically generated CUT images improve the mAP of each model compared to no data modification.
 
-<center>Table: Vehicle Results</center>
+<p align="center"><b>Table: Vehicle Results</b></p>
 <center><img src="Figures/VehicleAP.png"></center>
 
-<center>Table: Pedestrian Results</center>
+<p align="center"><b>Table: Pedestrian Results</b></p>
 <center><img src="Figures/PedestrianAP.png"></center>
 
 Sample results on test data can be seen in the dashcam video footage at the top of this page, taken driving in two different conditions around Madison, WI. One can observe that the model consistently detects objects of the category it was trained on, namely vehicles and pedestrians. It does not, however, detect much larger or smaller vehicles, such as buses or motorcycles.
@@ -44,6 +44,8 @@ Sample results on test data can be seen in the dashcam video footage at the top 
 ## Discussion
 
 Future work in this area would include expanding the number of classes of detected objects. We could consider bicycles, street signs, animals, and other common entities encountered while driving. For example, one might apply image super-resolution techniques to enhance and decipher words on common street signs. We expect that constructing an accurate model for several classes of objects will be more difficult than our implementation in adverse conditions.
+
+Another direction of future work would involve increasing computational efficiency. For object tracking to be deployed in applications such as autonomous vehicles, the system must be able to produce accurate results in real time. While we showed the CUT image enhancement results in more accurate detection, it is nowhere near a real-time implementation.
 
 ## Source Code
 Code can be found at our [Github Repo](https://github.com/jonvanveen/Adverse-Weather-Object-Tracking).
