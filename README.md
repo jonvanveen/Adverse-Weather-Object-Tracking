@@ -33,9 +33,9 @@ Intersection Over Union (IOU) is a key evaluation metric for bounding-box object
 
 Mean Average Precision (mAP) is another common evaluation metric for object detection models. Average Precision is the area under the Precision-Recall curve, and AP50/AP75 is the area under the curve when the IoU threshold is 0.5/0.75. Precision is the percent of predictions that are correct, and recall is the percent of the target that is correctly found. The tables below show that training with synthetically generated CUT images improve the mAP of each model compared to no data modification.
 
-<p align="center"><b>Table: Vehicle Results</b></p><center><img src="Figures/VehicleAP.png"></center>
+<p align="center"> <b>Vehicle Results</b> </p><center><img src="Figures/VehicleAP.png"></center>
 
-<p align="center"><b>Table: Pedestrian Results</b></p><center><img src="Figures/PedestrianAP.png"></center>
+<p align="center"> <b>Pedestrian Results</b> </p><center><img src="Figures/PedestrianAP.png"></center>
 
 Sample results on test data can be seen in the dashcam video footage at the top of this page, taken driving in two different conditions around Madison, WI. One can observe that the model consistently detects objects of the category it was trained on, namely vehicles and pedestrians. It does not, however, detect much larger or smaller vehicles, such as buses or motorcycles.
 
